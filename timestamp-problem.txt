@@ -1,0 +1,15 @@
+You are given a list of data entries that represent entries and exits of  groups of people into a building. 
+An entry looks like this:
+
+{1526579928,3,enter}
+{1526579982,2,exit}
+{1526579991,6,enter}
+{1526579994,1,exit}
+{1526579999,2,enter}
+{1526580000,8,exit}
+
+Output:
+1526579999 1526580000
+
+Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of (start, end) timestamps. 
+You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
